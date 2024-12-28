@@ -290,3 +290,76 @@ h1 {
 .details button:hover {
     background-color: #e65c00;
 }
+
+
+.moun {
+    align-items: center;
+    text-align: left;
+
+}
+
+.Perfect {
+    font-size: 50px;
+    color: black;
+}
+.see {
+    background-color: #e65c00;
+    height: 40px;
+    width: 80px;
+    border: none;
+}
+.video-section {
+    max-width: 50%;
+    
+}
+.video-section img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    position: right top;
+}
+
+
+/* footer */
+.conten {
+    text-align: center;
+    color: #555;
+    background-color: antiquewhite;
+    width: 100%;
+}
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo-image {
+    height: 50px;
+}
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
+
+.travel {
+    color: #ff6600;
+}
+.description {
+    margin: 20px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.social-icons a img {
+    width: 24px;
+    margin: 0, 5px;
+
+}
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+footer {
+    margin-top: 20px;
+    font-size: 2px;
+    color: #888;
+}
