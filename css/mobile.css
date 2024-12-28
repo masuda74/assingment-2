@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+/* Navber */
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #f4f4f4;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.logo span {
+    color: orange;
+    align-items: justify;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("../public/Group\ 13\ \(1\)\ \(1\).png");
+    height: 483px;
+    width: 335px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+.hero h2 {
+    font-size: 20px;
+    margin-bottom: auto;
+    text-align: center;
+    
+}
+.hero p {
+    margin-bottom: 2px;
+    text-align: center;
+}
+.search-form {
+    display: flex;
+    gap: 10px;
+}
+.search-form input,
+.search-form select,
+.search-form button {
+    padding: 5px;
+    font-size: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    flex-direction: column;
+}
+.search-form button {
+    background-color: #FF5400;
+    color: white;
+    cursor: pointer;
+    
+}
+.search-form button:hover {
+    background-color: darkorange;
+}
